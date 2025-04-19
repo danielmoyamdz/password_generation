@@ -79,3 +79,28 @@ label {
     font-size: 1rem;
     font-weight: 500;
 }
+
+#copy {
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #34C759;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(52, 199, 89, 0.2);
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+#copy:hover {
+    background-color: #28A745;
+    transform: translateY(-2px);
+}
+
+#copy:active {
+    background-color: #1E7E34;
+    transform: translateY(0);
+}

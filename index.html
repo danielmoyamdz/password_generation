@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Generador de Contraseñas</title>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <div class="container">
-    <h1>Generador de Contraseñas</h1>
-    <label for="length">Longitud:</label>
+    <h1>Password Generator</h1>
+    <label for="length">Lenght:</label>
     <input type="number" id="length" min="4" max="32" value="12" />
-    <button id="generate">Generar</button>
+    <button id="generate">Generate</button>
     <textarea id="result" readonly></textarea>
+    <button id="copy">📋 Copy</button>
 </div>
 <script src="src/index.js"></script>
 </body>
